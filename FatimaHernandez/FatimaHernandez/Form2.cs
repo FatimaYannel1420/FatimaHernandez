@@ -31,7 +31,7 @@ namespace FatimaHernandez
 
         private void button2_Click(object sender, EventArgs e)
         {
-            listBox1.Items.Add("ENERO" + txt_i);
+            listBox1.Items.Add("ENERO");
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -91,13 +91,56 @@ namespace FatimaHernandez
 
         private void txt_i_TextChanged(object sender, EventArgs e)
         {
-            double capital = 2000;
-            double interes = 0.015;
-            double tiempo = 12;
             
-            double total_interes = Convert.ToDouble(txt_i);
-            total_interes = (capital * interes) / tiempo;
 
+        }
+        private void calcular ()
+        {
+            double Capital = 2000;
+            double Interes = 0.015;
+            double total=1;
+            double res=0;
+            
+            if (listBox1.Text == btnEnero.Text) { 
+                total = (Capital*Interes) / 1;
+            }
+            if (listBox1.Text == btnFebrero.Text)
+            {
+                total = (Capital * Interes) / 2;
+            }
+            if (listBox1.Text == btnMarzo.Text)
+            {
+                total = (Capital * Interes) / 3;
+            }
+            if (listBox1.Text == btnAbril.Text)
+            {
+                total = (Capital * Interes) / 4;
+            }
+            if (listBox1.Text == btnMayo.Text)
+            {
+                total = (Capital * Interes) / 5;
+            }
+            if (listBox1.Text == btnJunio.Text)
+            {
+                total = (Capital * Interes) / 6;
+            }
+            
+            MessageBox.Show("Resultado " + total);
+            
+        }
+
+        private void txt_suma_TextChanged(object sender, EventArgs e)
+        {
+            
+           
+            
+            
+        }
+
+        private void btnCal_Click(object sender, EventArgs e)
+        {
+            
+            calcular();
         }
     }
 }

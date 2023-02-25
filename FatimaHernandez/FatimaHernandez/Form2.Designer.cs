@@ -30,14 +30,14 @@
         {
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
+            this.btnEnero = new System.Windows.Forms.Button();
+            this.btnFebrero = new System.Windows.Forms.Button();
+            this.btnMarzo = new System.Windows.Forms.Button();
+            this.btnAbril = new System.Windows.Forms.Button();
+            this.btnMayo = new System.Windows.Forms.Button();
+            this.btnJunio = new System.Windows.Forms.Button();
+            this.btnJulio = new System.Windows.Forms.Button();
+            this.btnAgosto = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
@@ -45,6 +45,7 @@
             this.txt_suma = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.txt_i = new System.Windows.Forms.TextBox();
+            this.btnCal = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // listBox1
@@ -65,85 +66,85 @@
             this.label5.TabIndex = 1;
             this.label5.Text = "Monto de interes";
             // 
-            // button2
+            // btnEnero
             // 
-            this.button2.Location = new System.Drawing.Point(403, 59);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(91, 23);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "ENERO";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnEnero.Location = new System.Drawing.Point(403, 59);
+            this.btnEnero.Name = "btnEnero";
+            this.btnEnero.Size = new System.Drawing.Size(91, 23);
+            this.btnEnero.TabIndex = 2;
+            this.btnEnero.Text = "ENERO";
+            this.btnEnero.UseVisualStyleBackColor = true;
+            this.btnEnero.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button3
+            // btnFebrero
             // 
-            this.button3.Location = new System.Drawing.Point(403, 88);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(91, 23);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "FEBRERO";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.btnFebrero.Location = new System.Drawing.Point(403, 88);
+            this.btnFebrero.Name = "btnFebrero";
+            this.btnFebrero.Size = new System.Drawing.Size(91, 23);
+            this.btnFebrero.TabIndex = 3;
+            this.btnFebrero.Text = "FEBRERO";
+            this.btnFebrero.UseVisualStyleBackColor = true;
+            this.btnFebrero.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button4
+            // btnMarzo
             // 
-            this.button4.Location = new System.Drawing.Point(403, 117);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(91, 23);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "MARZO";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.btnMarzo.Location = new System.Drawing.Point(403, 117);
+            this.btnMarzo.Name = "btnMarzo";
+            this.btnMarzo.Size = new System.Drawing.Size(91, 23);
+            this.btnMarzo.TabIndex = 4;
+            this.btnMarzo.Text = "MARZO";
+            this.btnMarzo.UseVisualStyleBackColor = true;
+            this.btnMarzo.Click += new System.EventHandler(this.button4_Click);
             // 
-            // button5
+            // btnAbril
             // 
-            this.button5.Location = new System.Drawing.Point(403, 146);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(91, 23);
-            this.button5.TabIndex = 5;
-            this.button5.Text = "ABRIL";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.btnAbril.Location = new System.Drawing.Point(403, 146);
+            this.btnAbril.Name = "btnAbril";
+            this.btnAbril.Size = new System.Drawing.Size(91, 23);
+            this.btnAbril.TabIndex = 5;
+            this.btnAbril.Text = "ABRIL";
+            this.btnAbril.UseVisualStyleBackColor = true;
+            this.btnAbril.Click += new System.EventHandler(this.button5_Click);
             // 
-            // button6
+            // btnMayo
             // 
-            this.button6.Location = new System.Drawing.Point(403, 175);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(91, 23);
-            this.button6.TabIndex = 6;
-            this.button6.Text = "MAYO";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.btnMayo.Location = new System.Drawing.Point(403, 175);
+            this.btnMayo.Name = "btnMayo";
+            this.btnMayo.Size = new System.Drawing.Size(91, 23);
+            this.btnMayo.TabIndex = 6;
+            this.btnMayo.Text = "MAYO";
+            this.btnMayo.UseVisualStyleBackColor = true;
+            this.btnMayo.Click += new System.EventHandler(this.button6_Click);
             // 
-            // button7
+            // btnJunio
             // 
-            this.button7.Location = new System.Drawing.Point(403, 204);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(91, 23);
-            this.button7.TabIndex = 7;
-            this.button7.Text = "JUNIO";
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
+            this.btnJunio.Location = new System.Drawing.Point(403, 204);
+            this.btnJunio.Name = "btnJunio";
+            this.btnJunio.Size = new System.Drawing.Size(91, 23);
+            this.btnJunio.TabIndex = 7;
+            this.btnJunio.Text = "JUNIO";
+            this.btnJunio.UseVisualStyleBackColor = true;
+            this.btnJunio.Click += new System.EventHandler(this.button7_Click);
             // 
-            // button8
+            // btnJulio
             // 
-            this.button8.Location = new System.Drawing.Point(500, 59);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(87, 23);
-            this.button8.TabIndex = 8;
-            this.button8.Text = "JULIO";
-            this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
+            this.btnJulio.Location = new System.Drawing.Point(500, 59);
+            this.btnJulio.Name = "btnJulio";
+            this.btnJulio.Size = new System.Drawing.Size(87, 23);
+            this.btnJulio.TabIndex = 8;
+            this.btnJulio.Text = "JULIO";
+            this.btnJulio.UseVisualStyleBackColor = true;
+            this.btnJulio.Click += new System.EventHandler(this.button8_Click);
             // 
-            // button9
+            // btnAgosto
             // 
-            this.button9.Location = new System.Drawing.Point(500, 88);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(87, 23);
-            this.button9.TabIndex = 9;
-            this.button9.Text = "AGOSTO";
-            this.button9.UseVisualStyleBackColor = true;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
+            this.btnAgosto.Location = new System.Drawing.Point(500, 88);
+            this.btnAgosto.Name = "btnAgosto";
+            this.btnAgosto.Size = new System.Drawing.Size(87, 23);
+            this.btnAgosto.TabIndex = 9;
+            this.btnAgosto.Text = "AGOSTO";
+            this.btnAgosto.UseVisualStyleBackColor = true;
+            this.btnAgosto.Click += new System.EventHandler(this.button9_Click);
             // 
             // button10
             // 
@@ -191,6 +192,7 @@
             this.txt_suma.Name = "txt_suma";
             this.txt_suma.Size = new System.Drawing.Size(100, 20);
             this.txt_suma.TabIndex = 14;
+            this.txt_suma.TextChanged += new System.EventHandler(this.txt_suma_TextChanged);
             // 
             // label6
             // 
@@ -209,9 +211,20 @@
             this.txt_i.TabIndex = 16;
             this.txt_i.TextChanged += new System.EventHandler(this.txt_i_TextChanged);
             // 
+            // btnCal
+            // 
+            this.btnCal.Location = new System.Drawing.Point(288, 252);
+            this.btnCal.Name = "btnCal";
+            this.btnCal.Size = new System.Drawing.Size(75, 23);
+            this.btnCal.TabIndex = 17;
+            this.btnCal.Text = "CALCULAR";
+            this.btnCal.UseVisualStyleBackColor = true;
+            this.btnCal.Click += new System.EventHandler(this.btnCal_Click);
+            // 
             // Form2
             // 
             this.ClientSize = new System.Drawing.Size(670, 322);
+            this.Controls.Add(this.btnCal);
             this.Controls.Add(this.txt_i);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.txt_suma);
@@ -219,14 +232,14 @@
             this.Controls.Add(this.button12);
             this.Controls.Add(this.button11);
             this.Controls.Add(this.button10);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnAgosto);
+            this.Controls.Add(this.btnJulio);
+            this.Controls.Add(this.btnJunio);
+            this.Controls.Add(this.btnMayo);
+            this.Controls.Add(this.btnAbril);
+            this.Controls.Add(this.btnMarzo);
+            this.Controls.Add(this.btnFebrero);
+            this.Controls.Add(this.btnEnero);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.listBox1);
             this.Name = "Form2";
@@ -247,14 +260,14 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button btnEnero;
+        private System.Windows.Forms.Button btnFebrero;
+        private System.Windows.Forms.Button btnMarzo;
+        private System.Windows.Forms.Button btnAbril;
+        private System.Windows.Forms.Button btnMayo;
+        private System.Windows.Forms.Button btnJunio;
+        private System.Windows.Forms.Button btnJulio;
+        private System.Windows.Forms.Button btnAgosto;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button12;
@@ -262,5 +275,6 @@
         private System.Windows.Forms.TextBox txt_suma;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txt_i;
+        private System.Windows.Forms.Button btnCal;
     }
 }
