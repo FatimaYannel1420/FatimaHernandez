@@ -23,5 +23,81 @@ namespace FatimaHernandez
             form1.Show();
             this.Hide();
         }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Add("ENERO" + txt_i);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Add("FEBRERO");
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Add("MARZO");
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Add("ABRIL");
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Add("MAYO");
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Add("JUNIO");
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Add("JULIO");
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Add("AGOSTO");
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Add("SEPTIEMBRE");
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Add("OCTUBRE");
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Add("NOVIEMBRE");
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Add("DICIEMBRE");
+        }
+
+        private void txt_i_TextChanged(object sender, EventArgs e)
+        {
+            double capital = 2000;
+            double interes = 0.015;
+            double tiempo = 12;
+            
+            double total_interes = Convert.ToDouble(txt_i);
+            total_interes = (capital * interes) / tiempo;
+
+        }
     }
 }
